@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover_img": "https://example.com/blog1_cover.jpg",
+      "title": "The Art of Cooking",
+      "author": "Jane Smith",
+      "author_img": "https://example.com/jane_smith.jpg",
+      "posted_date": "2023-09-10",
+      "reading_time": "8 min",
+      "hashtags": ["cooking", "food", "recipes"]
+    },
+    {
+      "id": "2",
+      "cover_img": "https://example.com/blog2_cover.jpg",
+      "title": "Exploring the Great Outdoors",
+      "author": "John Doe",
+      "author_img": "https://example.com/john_doe.jpg",
+      "posted_date": "2023-09-08",
+      "reading_time": "12 min",
+      "hashtags": ["travel", "nature", "adventure"]
+    },
+    {
+      "id": "3",
+      "cover_img": "https://example.com/blog3_cover.jpg",
+      "title": "The Science of Artificial Intelligence",
+      "author": "Emily Brown",
+      "author_img": "https://example.com/emily_brown.jpg",
+      "posted_date": "2023-09-05",
+      "reading_time": "10 min",
+      "hashtags": ["AI", "technology", "machinelearning"]
+    },
+    {
+      "id": "4",
+      "cover_img": "https://example.com/blog4_cover.jpg",
+      "title": "Fitness Tips for a Healthy Lifestyle",
+      "author": "Michael Johnson",
+      "author_img": "https://example.com/michael_johnson.jpg",
+      "posted_date": "2023-09-03",
+      "reading_time": "6 min",
+      "hashtags": ["fitness", "health", "wellness"]
+    },
+    {
+      "id": "5",
+      "cover_img": "https://example.com/blog5_cover.jpg",
+      "title": "Discovering Hidden Gems in Your City",
+      "author": "Sarah Wilson",
+      "author_img": "https://example.com/sarah_wilson.jpg",
+      "posted_date": "2023-09-01",
+      "reading_time": "9 min",
+      "hashtags": ["travel", "explore", "local"]
+    }
+  ]
+  
