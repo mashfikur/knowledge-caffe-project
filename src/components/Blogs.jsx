@@ -11,11 +11,11 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div>
-      <h3>Blogs</h3>
-      {
-        blogs.map((blog)=><h1 key={blog.id} >{blog.author}</h1>)
-      }
+    <div className="md:w-2/3" >
+      <h3 className="text-3xl">Blogs</h3>
+      {blogs.map((blog) => (
+        <h1 key={blog.id}>{blog.author}</h1>
+      ))}
     </div>
   );
 };
