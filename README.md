@@ -1,6 +1,8 @@
-# React + Vite
+# Knowledge Caffe React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a demo react project for learning purpose with basic react setup
+
+**This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.**
 
 Currently, two official plugins are available:
 
