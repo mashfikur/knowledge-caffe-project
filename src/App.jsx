@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="md:flex container mx-auto">
+      <div className="md:flex mt-8 container mx-auto">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
