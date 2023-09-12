@@ -18,6 +18,14 @@ function App() {
     let time = blog.reading_time;
     let totalSpentTime = readTime + time;
     setReadTime(totalSpentTime);
+
+    const MarkReadBlogId = blog.id;
+
+    const remainingArray = bookmarks.filter(
+      (bookmark) => bookmark.id !== MarkReadBlogId
+    );
+
+    setBookmarks(remainingArray);
   };
 
   return (
@@ -25,7 +33,7 @@ function App() {
       <Navbar></Navbar>
       <div className="md:flex gap-6 mt-8 container mx-auto">
         <Blogs handleBookmark={handleBookmark} handleRead={handleRead}></Blogs>
-        <Bookmarks bookmarks={bookmarks} readTime={readTime} ></Bookmarks>
+        <Bookmarks bookmarks={bookmarks} readTime={readTime}></Bookmarks>
       </div>
     </>
   );
