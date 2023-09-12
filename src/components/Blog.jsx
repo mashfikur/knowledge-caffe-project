@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { BsBookmarks } from "react-icons/bs";
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleBookmark }) => {
   return (
     <div className=" mb-10 pb-10 border-b-2 w-full">
       <img
@@ -27,8 +27,7 @@ const Blog = ({ blog }) => {
             <div>
               <p>{blog.reading_time} min read</p>
             </div>
-            <button>
-              {" "}
+            <button onClick={() => handleBookmark(blog)}>
               <BsBookmarks></BsBookmarks>{" "}
             </button>
           </div>
@@ -49,6 +48,7 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleBookmark: PropTypes.func.isRequired,
 };
 
 export default Blog;
